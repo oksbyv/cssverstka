@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.t1,
+.t2,
+.t3 {
+  height: 150px;
+}
+.t1 h1 {
+  color: aquamarine;
+}
+.t1 {
+  width: 100%;
+  background-color: red;
+  text-align: center;
+}
+.t2 {
+  float: left;
+  width: 60%;
+  background-color: blue;
+}
+.t3 {
+  float: right;
+  width: 40%;
+  background-color: green;
+}
+
+@media (max-width: 750px) {
+  div:not(.t1) {
+    width: 100%;
+  }
+  .t2 {
+    top: 150px;
+    position: relative;
+  }
+  .t3 {
+    float: none;
+  }
+}
