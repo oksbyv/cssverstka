@@ -38,3 +38,14 @@
     float: none;
   }
 }
+
+#user {
+  font-weight: normal;
+  font-size: 10px;
+}
+.french {
+  font-weight: bold;
+}
+p {
+  font-size: 20px;
+}
